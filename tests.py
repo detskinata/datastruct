@@ -30,3 +30,6 @@ class TestStack(unittest.TestCase):
         self.assertEqual(self.stack.top.next_node.data, 'data2')
         self.assertEqual(self.stack.top.next_node.next_node.data, 'data1')
         self.assertEqual(self.stack.top.next_node.next_node.next_node, None)
+
+    def test_pop(self):
+        self.assertEqual(stack.top.data, 'data2')
