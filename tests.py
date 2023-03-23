@@ -16,6 +16,7 @@ class TestNode(unittest.TestCase):
         self.assertEqual(node2.next_node, self.node)
 
 
+
 class TestStack(unittest.TestCase):
     def setUp(self):
         self.stack = Stack()
