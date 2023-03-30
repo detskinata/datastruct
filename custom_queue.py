@@ -26,18 +26,3 @@ class Queue:
         return deq_element.data
 
 
-queue = Queue()
-queue.enqueue('data1')
-queue.enqueue('data2')
-queue.enqueue('data3')
-print(queue.dequeue())
-# queue = Queue()
-# queue.enqueue('data1')
-# queue.enqueue('data2')
-# queue.enqueue('data3')
-#
-# print(queue.head.data)
-# print(queue.head.next_node.data)
-# print(queue.tail.data)
-# print(queue.tail.next_node)
-# print(queue.tail.next_node.data)
